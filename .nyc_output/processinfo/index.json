@@ -1,0 +1,1 @@
+{"processes":{"4dc1d94c-f858-42c1-841e-e7a703b9eb21":{"parent":null,"children":["62d8b9d2-71c5-43ad-8b6f-f5bf9a70c616"]},"62d8b9d2-71c5-43ad-8b6f-f5bf9a70c616":{"parent":"4dc1d94c-f858-42c1-841e-e7a703b9eb21","children":[]}},"files":{"C:\\Users\\ianan\\Laboratoria\\card-validator\\lib\\card-validator.js":["62d8b9d2-71c5-43ad-8b6f-f5bf9a70c616"]},"externalIds":{}}

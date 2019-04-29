@@ -19,5 +19,8 @@ describe("card lib", () => {
     it("Return false to number < 16", () => {
       expect(Card.cardValidator("55914495801")).to.equal(false);
     });
+    it("Return true to 4539.1269.2938.5982", () => {
+      expect(Card.cardValidator("4539.1269.2938.5982")).to.equal(true);
+    });
   });
 });
