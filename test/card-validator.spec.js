@@ -19,7 +19,7 @@ describe('card lib', () => {
     it('Return true to string 4539878902538066', () => {
       expect(Card.cardValidator('4539878902538066')).to.equal(true);
     });
-    it('Should return true to number 4539878902538066', () => {
+    it('Return true to number 4539878902538066', () => {
       expect(Card.cardValidator(4539878902538066)).to.equal(true);
     });
     it('Return true to 4539.1269.2938.5982', () => {
