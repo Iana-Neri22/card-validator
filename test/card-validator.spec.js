@@ -23,7 +23,6 @@ describe('card lib', () => {
       expect(Card.cardValidator(4539878902538066)).to.equal(true);
     });
     it('Return true to 4539.1269.2938.5982', () => {
-      console.log(Card.cardValidator('4539.1269.2938.5982'));
       expect(Card.cardValidator('4539.1269.2938.5982')).to.equal(true);
     });
     it('Return false to 4539.1269.2938.5981', () => {
