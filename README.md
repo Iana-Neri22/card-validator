@@ -1,6 +1,6 @@
 # **Validador de Cartão de Crédito** 
 
-Esta biblioteca verifica se o número do cartão de crédito é verdadeiro ou falso, com base no algoritmo de Luhn. Na versão atual é capaz de verificar se um número de cartão de crédito com 16 dígitos é válido.
+Esta biblioteca verifica se o número do cartão de crédito é válido, com base no algoritmo de Luhn. Na versão atual é capaz de verificar se um número de cartão de crédito com 16 dígitos é válido.
 
 ### **Como instalar**:
  
