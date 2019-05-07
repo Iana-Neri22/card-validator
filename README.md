@@ -14,7 +14,7 @@ Esta biblioteca tem como finalidade verificar se um número de cartão de crédi
 
 ## Roadmap Oficial do projeto:
 
-###  Versão 1.0.1 (released)
+###  Versão 1.0.3 (released)
 
  - Validação de número de cartão de crédito com 16 dígitos
  - Aceita entradas do tipo number e string(incluindo caracteres especiais "-, .")

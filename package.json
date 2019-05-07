@@ -1,8 +1,8 @@
 {
   "name": "card-validator-ianan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biblioteca Javascript para validação de cartão de crédito",
-  "main": "./lib/card-validator.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Iana-Neri22/card-validator.git"
   },
-  "author": "",
+  "author": "Iana Neri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Iana-Neri22/card-validator/issues"
