@@ -2,7 +2,7 @@
 
 let chai = require('chai');
 let expect = chai.expect;
-let Card = require('../lib/card-validator');
+let Card = require('../lib/index.js');
 
 describe('card lib', () => {
   describe('cardValidator', () => {

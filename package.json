@@ -4,7 +4,7 @@
   "description": "Biblioteca Javascript para validação de cartão de crédito",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=text mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "nyc": "^14.1.0"
   }
 }
