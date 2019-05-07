@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 let chai = require('chai');
 let expect = chai.expect;
 let Card = require('../lib/card-validator');
@@ -5,7 +7,7 @@ let Card = require('../lib/card-validator');
 describe('card lib', () => {
   describe('cardValidator', () => {
     it('Return false to 123456', () => {
-      expect(Card.cardValidator("123456")).to.equal(false);
+      expect(Card.cardValidator('123456')).to.equal(false);
     });
     it('Return false to number > 16', () => {
       expect(Card.cardValidator('533910046540306022')).to.equal(false);

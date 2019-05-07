@@ -1,16 +1,20 @@
-# **Validador de Cartão de Crédito** 
+# Validador de Cartão de Crédito
 
-Esta biblioteca verifica se o número do cartão de crédito é válido, com base no algoritmo de Luhn. Na versão atual é capaz de verificar se um número de cartão de crédito com 16 dígitos é válido.
+Esta biblioteca tem como finalidade verificar se um número de cartão de crédito é válido.
 
-### **Como instalar**:
- 
-$ npm install card-validator
+## Como instalar:
 
-### **Como utilizar**:
+    $  npm i card-validator-ianan
 
-### **Roadmap Oficial do projeto**:
+## Como utilizar:
 
-## **Versão 1.0.0**
+    > const cardValidator = require("card-validator-ianan")
+    > cpfValidator.cpfValidator(320.062.210-51)
+    > //return true
 
-* Verifica cartão de crédito com 16 dígitos
- 
+## Roadmap Oficial do projeto:
+
+###  Versão 1.0.1 (released)
+
+ - Validação de número de cartão de crédito com 16 dígitos
+ - Aceita entradas do tipo number e string(incluindo caracteres especiais "-, .")
