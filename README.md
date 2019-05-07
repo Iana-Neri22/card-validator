@@ -9,7 +9,7 @@ Esta biblioteca tem como finalidade verificar se um número de cartão de crédi
 ## Como utilizar:
 
     > const cardValidator = require("card-validator-ianan")
-    > cpfValidator.cpfValidator(320.062.210-51)
+    > cardValidator.cardValidator(4539878902538066)
     > //return true
 
 ## Roadmap Oficial do projeto:

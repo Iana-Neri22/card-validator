@@ -1,7 +1,7 @@
 {
   "name": "card-validator-ianan",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Biblioteca Javascript para validação de cartão de crédito",
   "main": "./lib/card-validator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
